@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>Pulluri Neelima Portfolio</title>  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <header class="navbar">
+        <div class="logo">PULLURI NEELIMA</div>
+        <nav>
+        <ul class="nav-links">
+            <li><a href="#" onclick="showSection('Home')">Home</a></li>
+            <li><a href="#" onclick="showSection('About Me')">About Me</a></li>
+            <li><a href="#" onclick="showSection('Portfolio')">Portfolio</a></li>
+            <li><a href="#" onclick="showSection('Contact')">Contact</a></li>
+
+        </ul>
+        </nav>
+        </header>
+
+     <main>
+        <section id="home" class="section ">
+    <div class="hero">
+        <h1> Hi, I'm Neelima </h1>
+        <p>Web Developer</p>
+        <p>I am an MSC Computer Science graduate.
+            Passionate to learn new things in web development.
+        </p>
+        <a href="#portfolio" class="btn">Hire Me</a>
+        <a href="#portfolio" class="btn">Download resume</a>
+    </div>
+    </section>
+
+    <section id="About" class="section ">
+    <div class="content about_content"></div> 
+    <div class="profile_pic"></div>  
+    <div class="bio">
+    <h1> About<span>Me</span> </h1>
+    <p> MSC Computer Science graduate with a keen intrest in web development.
+        Eager to apply my knowledge in a professional environment and grow as a developer.
+    </p>
+    </div>
+    <div class="container">
+        <div class="About me Info"></div>
+    </div>
+    <h3>Skills</h3>
+    </div>
+    <div class="skills">
+      <div class="skill"><span> HTML </span>
+     <div class ="skill-bar" style="width:90%"></div>
+    </div>
+    <div class="skill">
+        <span> CSS </span>
+        <div class="skill-bar" style="width:85%"></div>
+    </div>
+    <div class="skill">
+        <span>JavaScript</span>
+        <div class="skill-bar" style="width:80%"></div>
+    </div>
+    <div class ="skill">
+        <span>React</span>
+        <div class="skill-bar" style="width:70%"></div>
+    </div>
+    <button class="about-btn">Read More -></button>
+    </div>
+    </section>
+
+    <section id= "portfolio" class ="section ">
+    <div class="portfolio_section">
+        <h1> My Projects</h1>
+        <div class="projects_grid">
+        <div class="project_card">
+         <div class="content"></div>   
+        <h2> Project One</h2>
+        <p> Online Library Management System</p>
+        <p> A user friendly interface which manages books inventory, user accounts.</p>
+        <a href="#" class="btn-sm">View Live</a>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+    <section id="contact" class="section ">
+    <div class="content contact_section">
+    <h2> Get In Touch</h2>
+    <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" reguired/>
+        <input type="email" name="email" placeholder="Your Email" reguired />
+        <textarea name="message" placeholder="Your Message..." required></textarea>
+        
+        <button type="submit" class="btn">Send Message</button>
+        <p id="form-msg" class="form-msg"></p>
+        <div class="social-links">
+            <a href="#" target="_blank">LinkedIn</a>
+        </div>
+        <div class="social-links">
+            <a href="#" target="_blank">GitHub</a>
+        </div>
+    </form>
+    </div>
+    </section>
+    </main>
+
+    <main src="main.js" ></main>    
+</body> 
+</html>   
